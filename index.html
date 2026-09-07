@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Princess Travel — temukan perjalanan yang cocok untukmu.">
+  <title>Princess Travel — Your Next Escape</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo"><span>✦</span> princess<span>travel.</span></a>
+  <nav id="navLinks">
+    <a href="#destinasi">Destinasi</a>
+    <a href="#paket">Paket</a>
+    <a href="#planner">Trip Planner</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <a class="nav-btn" href="#planner">Plan Trip ↗</a>
+  <button class="hamb" id="hamb">☰</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow">TRAVEL • EXPLORE • REPEAT</div>
+    <h1>Go somewhere<br><em>you'll remember.</em></h1>
+    <p>Liburan nggak harus ribet. Temukan destinasi, pilih paket, dan rencanakan perjalanan impianmu bersama Princess Travel.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#destinasi">Jelajahi Destinasi</a>
+      <a class="btn outline" href="#planner">Bikin Itinerary</a>
+    </div>
+    <div class="stats">
+      <div><b>25+</b><small>Destinasi</small></div>
+      <div><b>4.9/5</b><small>Rating traveler</small></div>
+      <div><b>24/7</b><small>Trip support</small></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1400&q=85" alt="Pemandangan perjalanan tropis">
+    <div class="location-card"><span>📍</span><div><small>Featured escape</small><b>Bali, Indonesia</b></div></div>
+    <div class="floating-card"><strong>✈</strong><span>Next stop?<br><b>Anywhere.</b></span></div>
+  </div>
+</section>
+
+<div class="ticker"><span>DISCOVER</span><i>✦</i><span>WANDER</span><i>✦</i><span>ESCAPE</span><i>✦</i><span>MEMORIES</span><i>✦</i><span>DISCOVER</span></div>
+
+<section class="section" id="destinasi">
+  <div class="section-top"><div><div class="eyebrow">POPULAR DESTINATIONS</div><h2>Where will you<br><em>go next?</em></h2></div><p>Lebih banyak tempat, lebih banyak cerita. Pilih destinasi favoritmu.</p></div>
+  <div class="destination-count"><b>18+</b> places to escape</div><div class="filter-row">
+    <button class="filter active" data-filter="all">Semua</button>
+    <button class="filter" data-filter="asia">Asia</button>
+    <button class="filter" data-filter="europe">Eropa</button>
+    <button class="filter" data-filter="world">World</button>
+  </div>
+  <div class="destinations">
+    <article class="destination big" data-cat="asia"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=85" alt="Bali"><div class="overlay"><span>INDONESIA • ASIA</span><h3>Bali</h3><p>Island escape • 4D3N</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=85" alt="Kyoto"><div class="overlay"><span>JAPAN • ASIA</span><h3>Kyoto</h3><p>Culture & calm</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=900&q=85" alt="London"><div class="overlay"><span>UK • EUROPE</span><h3>London</h3><p>City adventure</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=85" alt="New York"><div class="overlay"><span>USA • WORLD</span><h3>New York</h3><p>Big city energy</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Santorini"><div class="overlay"><span>GREECE • EUROPE</span><h3>Santorini</h3><p>Sea & sunsets</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=85" alt="Paris"><div class="overlay"><span>FRANCE • EUROPE</span><h3>Paris</h3><p>Romance & art</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=85" alt="Tokyo"><div class="overlay"><span>JAPAN • ASIA</span><h3>Tokyo</h3><p>Neon nights</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=900&q=85" alt="Singapore"><div class="overlay"><span>SINGAPORE • ASIA</span><h3>Singapore</h3><p>Modern getaway</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=900&q=85" alt="Dubai"><div class="overlay"><span>UAE • WORLD</span><h3>Dubai</h3><p>Luxury & desert</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=85" alt="Maldives"><div class="overlay"><span>MALDIVES • WORLD</span><h3>Maldives</h3><p>Tropical bliss</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=85" alt="Swiss Alps"><div class="overlay"><span>SWITZERLAND • EUROPE</span><h3>Swiss Alps</h3><p>Mountain escape</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=85" alt="Thailand"><div class="overlay"><span>THAILAND • ASIA</span><h3>Phuket</h3><p>Beach & nightlife</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=900&q=85" alt="Komodo"><div class="overlay"><span>INDONESIA • ASIA</span><h3>Komodo</h3><p>Wild island adventure</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=900&q=85" alt="Sydney"><div class="overlay"><span>AUSTRALIA • WORLD</span><h3>Sydney</h3><p>Coast & city</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?auto=format&fit=crop&w=900&q=85" alt="Rome"><div class="overlay"><span>ITALY • EUROPE</span><h3>Rome</h3><p>History & pasta</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=85" alt="India"><div class="overlay"><span>INDIA • WORLD</span><h3>Agra</h3><p>Heritage & wonder</p></div></article>
+    <article class="destination" data-cat="asia"><img src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?auto=format&fit=crop&w=900&q=85" alt="Bora Bora"><div class="overlay"><span>POLYNESIA • WORLD</span><h3>Bora Bora</h3><p>Ocean dream</p></div></article>
+    <article class="destination" data-cat="europe"><img src="https://images.unsplash.com/photo-1473959383418-b6b1d7d2b1c4?auto=format&fit=crop&w=900&q=85" alt="Amsterdam"><div class="overlay"><span>NETHERLANDS • EUROPE</span><h3>Amsterdam</h3><p>Canals & cafés</p></div></article>
+    <article class="destination" data-cat="world"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Cape Town"><div class="overlay"><span>SOUTH AFRICA • WORLD</span><h3>Cape Town</h3><p>Ocean & mountains</p></div></article>
+  </div>
+</section>
+
+<section class="packages" id="paket">
+  <div class="section-top light"><div><div class="eyebrow">TRAVEL PACKAGES</div><h2>Pick your<br><em>kind of trip.</em></h2></div><p>Paket bisa disesuaikan dengan budget dan gaya liburanmu.</p></div>
+  <div class="package-grid">
+    <article class="package"><span class="tag">CHILL</span><h3>Weekend Escape</h3><p>Liburan singkat untuk recharge tanpa harus ambil cuti panjang.</p><div class="package-bottom"><b>Mulai dari</b><strong>Rp 1,9 jt</strong></div><button onclick="book('Weekend Escape')">Pilih Paket ↗</button></article>
+    <article class="package featured"><span class="tag">MOST LOVED</span><h3>Explore More</h3><p>Trip lengkap dengan itinerary, hotel, transport, dan aktivitas pilihan.</p><div class="package-bottom"><b>Mulai dari</b><strong>Rp 3,9 jt</strong></div><button onclick="book('Explore More')">Pilih Paket ↗</button></article>
+    <article class="package"><span class="tag">CUSTOM</span><h3>Made For You</h3><p>Kamu tentukan tanggal, destinasi, vibe, dan budget. Kami yang susun.</p><div class="package-bottom"><b>Harga</b><strong>Custom</strong></div><button onclick="book('Made For You')">Konsultasi ↗</button></article>
+  </div>
+</section>
+
+<section class="planner section" id="planner">
+  <div class="planner-copy"><div class="eyebrow">MINI TRIP PLANNER</div><h2>Tell us your<br><em>travel mood.</em></h2><p>Pilih preferensi sederhana di bawah dan dapatkan rekomendasi gaya perjalanan.</p><div class="result" id="result">✨ Pilih mood-mu untuk mulai.</div></div>
+  <div class="planner-box">
+    <label>Tujuan impian</label>
+    <select id="place"><option value="beach">Pantai & tropis 🏝️</option><option value="city">City & shopping 🏙️</option><option value="culture">Culture & heritage 🏯</option><option value="nature">Nature & adventure 🏔️</option></select>
+    <label>Gaya liburan</label>
+    <select id="style"><option value="chill">Santai & healing</option><option value="fun">Seru & ramai</option><option value="romantic">Romantis</option><option value="budget">Hemat tapi tetap seru</option></select>
+    <label>Durasi</label>
+    <select id="days"><option value="3">3 hari</option><option value="4">4 hari</option><option value="5">5 hari</option><option value="7">7 hari</option></select>
+    <button class="btn primary full" onclick="plan()">✨ Buat Rekomendasi</button>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="quote-mark">“</div>
+  <h2>Collect moments,<br>not <em>things.</em></h2>
+  <p>Karena cerita terbaik biasanya dimulai dari tiket yang sudah dibeli.</p>
+</section>
+
+<section class="contact" id="kontak">
+  <div><div class="eyebrow">LET'S GO</div><h2>Ready for your<br><em>next escape?</em></h2></div>
+  <div class="contact-right"><p>Butuh bantuan pilih destinasi atau mau custom trip? Hubungi Princess Travel dan ceritakan trip impianmu.</p><a class="btn light" href="https://instagram.com/" target="_blank">Chat Instagram ↗</a></div>
+</section>
+</main>
+
+<footer><a class="logo" href="#home"><span>✦</span> princess<span>travel.</span></a><p>Travel more. Worry less.</p><small>© 2026 Princess Travel</small></footer>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
